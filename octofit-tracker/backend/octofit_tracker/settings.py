@@ -19,3 +19,6 @@ ALLOWED_HOSTS = ['*']
 INSTALLED_APPS = [
     'octofit_tracker',
 ]
+
+# Ensure 'djongo' is added to INSTALLED_APPS
+INSTALLED_APPS += ['djongo']
