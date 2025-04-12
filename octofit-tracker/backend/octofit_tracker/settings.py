@@ -15,3 +15,7 @@ CORS_ALLOW_HEADERS = ['*']
 
 # Allow all hosts
 ALLOWED_HOSTS = ['*']
+
+INSTALLED_APPS = [
+    'octofit_tracker',
+]
